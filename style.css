@@ -1,0 +1,231 @@
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: 'Exo', sans-serif;
+  color: white;
+  font-size: 50px;
+}
+h2 {
+  font-family: Arial;
+  color: pink;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+
+#banner{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 35px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#avatar {
+  top: 30px;
+  border-radius: 50%;
+  border : 5px solid white;
+  width: 230px;
+  box-shadow : 4px 2px 6px grey
+}
+
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+#footer ul li {
+  display: inline;
+  margin-left: 30px;
+}
+
+.list-unstyled{
+  text-align: center;
+}
+
+#footer a {
+  color: white;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: pink;
+}
+
+/* Designing layouts */
+.main-container {
+  display: flex;
+}
+.sidebar {
+  text-align: center;
+  flex: 1 0;
+  height: 140vh;
+  background-color: grey;
+  color: white;
+  font-size: 19px;
+  padding-top: 20px;
+}
+.page-content {
+  flex: 1 0 550px;
+  height: 140vh;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+/* Designing each section */
+
+/* Sidebar */
+.sidebar {
+  color:white;
+}
+.presentation h5{
+  font-size: 30px;
+  color: white;
+}
+.presentation {
+  font-family: arial;
+  font-size: 19px;
+  background-color: rgba(180,0,90,1.0);
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 5%;
+  box-shadow: 4px 2px 10px black;
+}
+
+.presentation p {
+  color: white;
+}
+
+.btn-medium {
+  color: white;
+  border: 1px solid white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-size: 23px;
+  background-color:pink; 
+}
+.btn-medium:hover {
+  text-decoration: none;
+  color: black;
+  background-color:pink;
+}
+
+.lic {
+  padding: 40px;
+  font-size: 19px;
+  margin-bottom: 5px;
+  padding-bottom: 30px;
+}
+
+.lic p{
+  text-align: left;
+  padding: 18px;
+}
+
+
+
+/* Page content */
+.avatar-slack {
+  width: 130px;
+  height: 117px;
+  border-radius: 5px;
+}
+#avatar-businessfrance {
+  margin-top: 10px;
+  width: 135px;
+  height: 95px;
+  border-radius: 5px; 
+}
+#avatar-chacok {
+  width: 135px;
+  height: 100px;
+  border-radius: 5px; 
+}
+
+#avatar-hermes {
+  margin-top: 10px;
+  width: 135px;
+  height: 90px;
+  border-radius: 5px; 
+}
+.intitule {
+  text-align: center; 
+  background-color: pink;
+  padding: 10px;
+}
+
+.intitule h4{
+  color: white;
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.message {
+  display: flex;
+  margin: 25px 40px;
+}
+.message h3, .message p {
+  margin: 0px;
+}
+.message h3 {
+  font-size: 21px;
+}
+.message span {
+  font-weight: lighter;
+  opacity: 0.5;
+}
+
+.message img {
+  margin : 0px 10px;
+}
+.message-body {
+  padding-left: 10px;
+}
+
+.message-body p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.avatar-voyage {
+  width: 240px;
+  height: 190px;
+  align-items: center;
+}
+
+#travel {
+  font-family:'Lobster', cursive;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#voyages {
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+}
